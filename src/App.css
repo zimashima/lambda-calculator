@@ -50,6 +50,12 @@ button{
     font-size: 32px;
     box-shadow: 0 5px black;
     margin: 10px;
+
+}
+
+button:nth-child(10){
+    width: 195px;
+    border-radius: 40%;
 }
 
 .numberbutton_container{
@@ -57,10 +63,19 @@ button{
     flex-flow: row wrap;
     justify-content: flex-end;
 }
+
 .number_button{
     background-color: #05346C;
     border: 1px solid #05346C;
 }
+
+
+
+.number_button{
+    background-color: #05346C;
+    border: 1px solid #05346C;
+}
+
 
 .operator_button{
     background-color: #2FB8F3;

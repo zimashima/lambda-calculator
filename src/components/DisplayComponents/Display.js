@@ -1,10 +1,11 @@
-import React from "react";
+import React, {useState} from "react";
 
 const Display = props => {
   return <div className="display">{
     /* Display any props data here */
-    0
+    
     }
+    {props.value}
     </div>;
 };
 
